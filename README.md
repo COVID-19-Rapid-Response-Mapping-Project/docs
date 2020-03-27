@@ -31,12 +31,13 @@ This project focuses on making resources available to those affected by the pand
 
 ("need" means MVP, "should" means stretch goal)
 
- - Kumu takes a JSON object or .xls spreadsheet and generates a visualized map of the data.  We need to generate an appropriate object.
- - We need a front-end to allow users to input resources.
+ - ~Kumu takes a JSON object or .xls spreadsheet and generates a visualized map of the data.  We need to generate an appropriate object.~
+ - ~We need a front-end to allow users to input resources.~
+ - Kumu's community suggested a service called sumApp that makes a nice form and makes an object for Kumu.  This saves days.
  - We should have someone to vet/dedupe info.
- - We need to automate user-entered form data being converted to one of the above formats.
+ - ~We need to automate user-entered form data being converted to one of the above formats.~
  - We need a front-end to allow users to find the relevant map.
- - We should provide this data via a publicly-accessible Web API for others to use.
+ - We should provide this data via a publicly-accessible Web API for others to use.  We have an iOS project intending to use our data feed.
  - There is no API to automatically upload new objects to Kumu.  A script should be written to log in and update the data at a specified time each day.  Perhaps a creative test integrated into the git CI that runs every time a new object is pushed that tests it's ability to login to Kumu and upload the new object.
  - We need ACTION resources as well but not necessarily mapped with Kumu.  These would be things like [Folding@Home](https://foldingathome.org/2020/03/15/coronavirus-what-were-doing-and-how-you-can-help-in-simple-terms/) and call for volunteers to submit resources for unmapped areas.
 
